@@ -1,0 +1,21 @@
+# ---- 编译产物 ----
+build/
+*.o
+*.obj
+*.exe
+*.dll
+Makefile*
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# ---- Qt Creator 的本机配置（含绝对路径，绝不能提交）----
+*.pro.user
+*.pro.user.*
+
+# ---- 其它 ----
+*.log
+*~
+*.autosave
+Thumbs.db
+.DS_Store
